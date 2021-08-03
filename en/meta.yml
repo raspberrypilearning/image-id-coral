@@ -1,0 +1,11 @@
+title: image-id-coral
+hero_image: images/banner.png
+description: image-id-coral description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-08-03"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
