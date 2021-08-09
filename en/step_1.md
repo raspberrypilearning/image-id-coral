@@ -1,19 +1,15 @@
 ## Introduction
 
-In this project, <mark> short project description </mark>
-
-<mark>Boxout (wherever wanted/needed) </mark>
+In this project, you will retrain a machine learning model, and then use it to identify images.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">**Machine learning**</span> is a form of Artificial Intelligence. In image identification, a **model** is trained to recognise different classes of images.
 </p>
 
-<mark>Objectives in language that learners will understand</mark>
 
 You will:
-+ 
-+ 
-+ 
++ Retrain a machine learning model to recognise new image classes
++ Use the Google Coral's TPU to identify image classes.
 
 --- no-print ---
 --- task ---
