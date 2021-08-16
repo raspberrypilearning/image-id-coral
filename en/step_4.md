@@ -13,9 +13,14 @@ To retrain a model on your computer you will need to have your Coral TPU connect
 
 --- task ---
 
-Download a pre-trained image recognition model [here](resources/)
+Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/raw/draft/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite)
 
 --- /task ---
 
+--- task ---
+
+Create 
+
+--- /task ---
 
 --- save ---
