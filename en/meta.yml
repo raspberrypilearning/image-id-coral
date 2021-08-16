@@ -7,7 +7,9 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Gather your images
+  - title: Retrain a model with Teachable Machine
+  - title: Retrain a model with a script
   - title: Reflection
     knowledge_quiz:
       path: quiz1
