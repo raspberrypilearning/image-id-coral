@@ -13,13 +13,31 @@ To retrain a model on your computer you will need to have your Coral TPU connect
 
 --- task ---
 
-Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/raw/draft/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite)
+Set up a directory structure on your computer so that you have directories for **data** and **models**.
+
+![data and models directory in a file explorer](images/directory_structure.png)
 
 --- /task ---
 
 --- task ---
 
-Create 
+Into the **data** directory, you can move your classified image directories and your test directory.
+
+![the four directories displayed](images/directories.png)
+
+--- /task ---
+
+--- task ---
+
+Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/raw/draft/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite)
+
+Move the model file to your **models** directory.
+
+--- /task ---
+
+--- task ---
+
+Download the training script [here]() and move it into the parent folder.
 
 --- /task ---
 
