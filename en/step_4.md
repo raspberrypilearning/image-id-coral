@@ -71,6 +71,7 @@ Open the **train.py** script using a text editor or an IDE such as [Thonny](http
 
 Line `30` sets the name of the model you will output from the retaining.
 Line `34` requires the name of you **label** file.
+
 --- code ---
 ---
 language: python
@@ -89,6 +90,7 @@ out_model_path = script_dir/'models'/'astropi-day-vs-nite.tflite'
 data_dir = script_dir/'data'
 labels_path = data_dir/'day-vs-night.txt'
 --- /code ---
+
 --- /task ---
 
 --- task ---
