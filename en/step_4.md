@@ -48,7 +48,6 @@ line_highlights:
 
 --- /task ---
 
-
 --- task ---
 
 Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/raw/draft/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite)
@@ -77,7 +76,7 @@ Line `34` requires the name of you **label** file.
 language: python
 filename: train.py
 line_numbers: true
-line_number_start:26 
+line_number_start: 26 
 line_highlights: 30, 34
 ---
 # the absolute path for the directory where this Python script is stored
