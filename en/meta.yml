@@ -10,3 +10,4 @@ steps:
   - title: Gather your images
   - title: Retrain a model with Teachable Machine
   - title: Retrain a model with a script
+  - title: Testing your new model
