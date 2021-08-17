@@ -1,6 +1,6 @@
-title: explore-project-template
+title: Image identification with Google Coral
 hero_image: images/banner.png
-description: explore-project-template description
+description: Learn how to retrain a machine learning model and use it for image identification.
 version: 4
 listed: false
 copyedit: false
