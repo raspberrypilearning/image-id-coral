@@ -60,7 +60,7 @@ Move the model file to your **models** directory.
 
 Download the training script [here](https://raw.githubusercontent.com/raspberrypilearning/image-id-coral/draft/en/resources/train.py) and move it into the parent folder.
 
-![parent directory showing the data and models directories along with the train.py script](images/parent_directory.py)
+![parent directory showing the data and models directories along with the train.py script](images/parent_directory.png)
 
 --- /task ---
 

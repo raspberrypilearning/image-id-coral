@@ -5,7 +5,7 @@
 Now that you have a trained model, it is time to use it to classify images.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![console output showing that the day class was identified with 99.6% confidence](images/day_recognition.png){:width="300px"}
 </div>
 </div>
 

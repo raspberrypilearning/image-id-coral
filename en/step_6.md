@@ -11,7 +11,9 @@
 
 If you would like to enter the Mission Space Lab competition, you might like to experiment with the [day, night, twilight](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5?usp=sharing) images provided.
 
-There are other ways you could use the Coral and Machine Learning for your Mission Space Lab project though. With image recognition, you might like to try and experiment with detecting ocean, land or coastline. You could look for mountain ranges, lakes, or deserts.
+![three images taken from the ISS showing the Earth in day, night and twilight](images/identification.png)
+
+There are other ways you could use the Coral and Machine Learning for your Mission Space Lab project though. With image recognition, you might like to try and experiment with detecting ocean, land or coastlines. You could look for mountain ranges, lakes, or deserts.
 
 With Machine Learning, you could also look at other data sources. You could analyse and then predict temperature changes on the ISS, or look into predicting orbital corrections.
 
