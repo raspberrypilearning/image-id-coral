@@ -109,5 +109,3 @@ You should see an output similar to this.
 Your new model will be saved in the **models** directory.
 
 ![original and new model shown](images/models.png)
-
---- save ---

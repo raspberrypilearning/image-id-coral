@@ -78,6 +78,3 @@ Select the **Tensorflow Lite** and **EdgeTPU** options and then **Download my mo
 ![teachable machine site with the options shown for downloading a model](images/teachable_machine_export_model_options.png)
 
 --- /task ---
-
-
---- save ---
