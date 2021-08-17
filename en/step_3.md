@@ -49,7 +49,7 @@ Rename **Class 1** to the name of your image directory, and then upload your ima
 
 --- task ---
 
-Repeat this step for you other image directories.
+Repeat this step for your other image directories.
 
 ![teachable machine site with three classes of images loaded](images/teachable_machine_3_classes.png)
 

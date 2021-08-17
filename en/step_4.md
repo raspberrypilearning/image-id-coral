@@ -5,11 +5,11 @@
 You can also retrain an existing model using a Python script, that will run using your locally stored directories of images.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![console output from the retraining of a model](images/retrain_local.gif){:width="300px"}
 </div>
 </div>
 
-To retrain a model on your computer you will need to have your Coral TPU connected, your image directories, and a pre-trained model.
+To retrain a model on your computer you will need to have your Coral TPU connected, your image directories organised, and a pre-trained model that you have downloaded.
 
 --- task ---
 
@@ -21,7 +21,7 @@ Set up a directory structure on your computer so that you have directories for *
 
 --- task ---
 
-Into the **data** directory, you can move your classified image directories and your test directory.
+Into the **data** directory, you can move your classified image directories and your tests directory.
 
 ![the four directories displayed](images/directories.png)
 
@@ -71,6 +71,7 @@ Open the **train.py** script using a text editor or an IDE such as [Thonny](http
 Line `30` sets the name of the model you will output from the retaining.
 Line `34` requires the name of you **label** file.
 
+You can change these lines depending on the name of your **tflite model** and your **label** file.
 --- code ---
 ---
 language: python
