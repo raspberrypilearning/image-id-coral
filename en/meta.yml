@@ -11,3 +11,4 @@ steps:
   - title: Retrain a model with Teachable Machine
   - title: Retrain a model with a script
   - title: Testing your new model
+  - title: Mission Space Lab
