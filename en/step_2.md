@@ -13,11 +13,15 @@ You can choose to retrain a machine learning model in two different ways, either
 
 Either way, you will need a set of classified images to begin with. The simplest way to classify images is to move them into named directories, where the directory name is the class name. You will want to have some images in a separate directory for testing.
 
+![4 directories labeled day, night, tests and twilight shown](images/directories.png)
+
 --- task ---
 
-Either create directories on your computer for your different image classes and manually move your collection of images into the directories, or you can download a set of images captured from the International Space Station [here](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5?usp=sharing){:target="_blank"} that have been classified already.
+You can create directories on your computer for all your different image classes and manually move your collections of images into the directories
 
-![4 directories labeled day, night, tests and twilight shown](images/directories.png)
+Alternatively or you can download a set of images captured from the International Space Station [here](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5){:target="_blank"} that have been classified already.
+
+![google drive showing the 4 directories to be downloaded](images/drive_download.png)
 
 --- /task ---
 
