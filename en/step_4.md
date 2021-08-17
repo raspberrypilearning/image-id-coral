@@ -72,6 +72,7 @@ Line `30` sets the name of the model you will output from the retaining.
 Line `34` requires the name of you **label** file.
 
 You can change these lines depending on the name of your **tflite model** and your **label** file.
+
 --- code ---
 ---
 language: python
