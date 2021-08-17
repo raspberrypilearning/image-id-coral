@@ -5,7 +5,7 @@
 There are many machine learning models that have been trained to identify different classes of images. These can easily be retrained to identify new classes.
 </div>
 <div>
-![](images/identification.png){:width="300px"}
+![three images taken from the ISS showing the Earth in day, night and twilight](images/identification.png){:width="300px"}
 </div>
 </div>
 
