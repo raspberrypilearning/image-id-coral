@@ -66,7 +66,7 @@ Next the directories and files needed by the classifier need to be stored as str
 
 --- task ---
 
-Add these four lines and change the names according to how you have named your model, label file and which test image you want to use.
+Add these four lines and change the names according to how you have named your model, label file, and which test image you want to use.
 
 --- code ---
 ---
@@ -76,10 +76,10 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 10-13
 ---
-model_file = script_dir/'models/astropi-day-vs-nite.tflite'
+model_file = script_dir/'models/astropi-day-vs-nite.tflite' # name of model
 data_dir = script_dir/'data'
-label_file = data_dir/'day-vs-night.txt'
-image_file = data_dir/'tests'/'day_3.jpg'
+label_file = data_dir/'day-vs-night.txt' # Name of your label file
+image_file = data_dir/'tests'/'day_3.jpg' # Name of image for classification
 --- /code ---
 
 --- /task ---
@@ -124,7 +124,7 @@ image = Image.open(image_file).convert('RGB').resize(size, Image.ANTIALIAS)
 
 --- /task ---
 
-Now the image needs to be run through the model, to see how closely it matches any of the classes, the model has been trained with.
+Now the image needs to be run through the model, to see how closely it matches any of the classes the model has been trained with.
 
 --- task ---
 
@@ -145,7 +145,7 @@ classes = classify.get_classes(interpreter, top_k=1)
 
 --- /task ---
 
-Lastly the labels file can be used, to provide a human readable class for the image. A score is also provided to tell you how confident the model is, in it's identification of the image.
+Lastly the labels file can be used to provide a human readable class for the image. A score is also provided to tell you how confident the model is in it's identification of the image.
 
 --- task ---
 
