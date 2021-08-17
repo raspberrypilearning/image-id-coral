@@ -29,6 +29,6 @@ Alternatively or you can download a set of images captured from the Internationa
 
 If you want to retrain a model using [Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"} then move onto the next step.
 
-If you want to retrain a model on your computer then move on to [Retrain a model locally](3).
+If you want to retrain a model on your computer then move on to [Retrain a model with a script](3).
 
 --- /task ---

@@ -5,7 +5,7 @@
 Teachable Machine allows you to easily retrain an image recognition model by uploading classified images to their site and using their cloud services to create a new model.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![animation from teachable machine website showing image, sound, and posture recognition](images/teachable_machine.gif){:width="300px"}
 </div>
 </div>
 
