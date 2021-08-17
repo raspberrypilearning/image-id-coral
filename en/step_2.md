@@ -15,7 +15,7 @@ Either way, you will need a set of classified images to begin with. The simplest
 
 --- task ---
 
-Either create directories on your computer for your different image classes and manually move your collection of images into the directories, or you can download a set of images captured from the International Space Station [here](https://rpf.io/p/en/image-id-coral-get){:target="_blank"} that have been classified already.
+Either create directories on your computer for your different image classes and manually move your collection of images into the directories, or you can download a set of images captured from the International Space Station [here](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5?usp=sharing){:target="_blank"} that have been classified already.
 
 ![4 directories labeled day, night, tests and twilight shown](images/directories.png)
 
@@ -25,6 +25,6 @@ Either create directories on your computer for your different image classes and 
 
 If you want to retrain a model using [Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"} then move onto the next step.
 
-If you want to retrain a model on your computer then move on to [Retrain a model locally](4).
+If you want to retrain a model on your computer then move on to [Retrain a model locally](3).
 
 --- /task ---
