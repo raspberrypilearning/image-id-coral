@@ -5,7 +5,7 @@
 There are many machine learning models that have been trained to identify different classes of images. These can easily be retrained to identify new classes.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/identification.png){:width="300px"}
 </div>
 </div>
 
