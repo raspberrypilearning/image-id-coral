@@ -106,6 +106,8 @@ interpreter.allocate_tensors()
 
 Machine learning models prefer to have all images at a set size, as this makes classification much simpler. If a model has been trained on images that are 224 pixels by 224 pixels, then it makes sense that any image that is fed into the model has the same dimensions.
 
+If you needed your model to pick out finer details in an image, then the model would need to be trained using higher resolution images. This might be important if you were trying to classify images with specific features, such as coastlines in an Astro Pi image, or the colour of a person's eyes in head shots.
+
 --- task ---
 
 Add the following lines to find out the dimensions used for the model you have re-trained, and then set the size of your test image to the same dimensions, using `PIL`.
