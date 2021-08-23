@@ -1,8 +1,8 @@
-## Retrain a model with Teachable Machine
+## Retrain a model online, with Teachable Machine
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Teachable Machine allows you to easily retrain an image recognition model by uploading classified images to their site and using their cloud services to create a new model.
+Teachable Machine allows you to easily retrain an image recognition model by uploading images, that have been sorted into classes, to their site and using their cloud services to create a new model.
 </div>
 <div>
 ![animation from teachable machine website showing image, sound, and posture recognition](images/teachable_machine.gif){:width="300px"}
@@ -76,5 +76,13 @@ Click on the **Export Model** button button.
 Select the **Tensorflow Lite** and **EdgeTPU** options and then **Download my model**.
 
 ![teachable machine site with the options shown for downloading a model](images/teachable_machine_export_model_options.png)
+
+--- /task ---
+
+You now have a file that is known as a model. It can be used by the Corel TPU to classify new images and tell you whether they were taken during the **day**, **night** or **twiglight**.
+
+--- task ---
+
+You can now move on to the [Testing your new model](5) step.
 
 --- /task ---

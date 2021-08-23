@@ -1,4 +1,4 @@
-## Retrain a model with a script
+## Retrain a model on your Raspberry Pi
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -58,7 +58,7 @@ Move the model file to your **models** directory.
 
 --- task ---
 
-Download the training script [here](https://raw.githubusercontent.com/raspberrypilearning/image-id-coral/draft/en/resources/train.py) and move it into the parent folder.
+Download the training script [here](https://raw.githubusercontent.com/raspberrypilearning/image-id-coral/master/en/resources/train.py) and move it into the parent folder.
 
 ![parent directory showing the data and models directories along with the train.py script](images/parent_directory.png)
 
@@ -69,7 +69,7 @@ Download the training script [here](https://raw.githubusercontent.com/raspberryp
 Open the **train.py** script using a text editor or an IDE such as [Thonny](https://thonny.org/). 
 
 Line `30` sets the name of the model you will output from the retaining.
-Line `34` requires the name of you **label** file.
+Line `33` requires the name of your **label** file.
 
 You can change these lines depending on the name of your **tflite model** and your **label** file.
 
@@ -111,3 +111,12 @@ You should see an output similar to this.
 Your new model will be saved in the **models** directory.
 
 ![original and new model shown](images/models.png)
+
+--- collapse ---
+---
+title: What's the difference between this and Teachable machine?
+---
+
+When you retrain the model on your own computer, you get to choose the model that you are retraining. With Teachable machine you are only ever using a model that has been chosen for you. By training on your computer, you have the opportunity to pick from a wide variety of different models, some of which might me better suited to the task you are trying to accomplish.
+
+--- /collapse ---
