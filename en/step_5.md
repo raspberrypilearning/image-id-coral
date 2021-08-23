@@ -62,7 +62,7 @@ script_dir = Path(__file__).parent.resolve()
 
 --- /task ---
 
-Next the directories and files needed by the classifier need to be stored as string variables. These include the model file, the data directory, the label file and the image you will be using to test your classifier.
+Next the directories and files needed by the classifier need to be stored as paths, relative to where your Python script is saved. These include the model file, the data directory, the label file and the image you will be using to test your classifier.
 
 --- task ---
 
@@ -84,7 +84,7 @@ image_file = data_dir/'tests'/'day_3.jpg' # Name of image for classification
 
 --- /task ---
 
-Now the TensorFlow interpreter needs to be set up to use the Coral's Edge TPU
+Now the TensorFlow Lite interpreter needs to be set up to use the Coral's Edge TPU
 
 --- task ---
 
@@ -159,7 +159,7 @@ line_highlights:
 ---
 labels = read_label_file(label_file)
 for c in classes:
-    print('%s: %.5f' % (labels.get(c.id, c.id), c.score))
+    print(f'{labels.get(c.id, c.id)} {c.score:.5f}')
 --- /code ---
 
 --- /task ---
