@@ -29,7 +29,6 @@ script_dir = Path(__file__).parent.resolve()
 model_path = script_dir/'models'/'mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite'
 out_model_path = script_dir/'models'/'astropi-day-vs-nite.tflite'
 #  specify where the labels and labelled training data are
-# note: this is the simple version, could accept command-line arguments
 data_dir = script_dir/'data'
 labels_path = data_dir/'day-vs-night.txt'
 
