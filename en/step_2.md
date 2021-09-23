@@ -41,7 +41,7 @@ sudo apt-get install libedgetpu1-std python3-pycoral -y
 
 Once the software has been installed, you can plug in your Coral device to one of the USB ports. We recommend the USB 3 ports, which you can identify because they are blue.
 
-![usb ports of the raspberry pi 4](images/usb_ports.jpg)
+![USB ports of the Raspberry Pi 4.](images/usb_ports.jpg)
 
 --- /task ---
 
@@ -49,7 +49,7 @@ You can choose to retrain a machine learning model in two different ways, either
 
 Either way, you will need a set of classified images to begin with. The simplest way to classify images is to move them into named directories, where the directory name is the class name. You will want to have some images in a separate directory for testing.
 
-![4 directories labeled day, night, tests and twilight shown](images/directories.png)
+![Four directories labeled day, night, tests, and twilight shown.](images/directories.png)
 
 --- task ---
 
@@ -70,9 +70,9 @@ The sets of images available for you to download have all been taken using an As
 
 The images taken have been classified into **day**, **night**, and **twilight** classes. Some images have also been kept back for use in **testing**.
 
-![three images taken from the ISS showing the Earth in day, night and twilight](images/identification.png)
+![Three images taken from the ISS showing the Earth in day, night, and twilight.](images/identification.png)
 
-Sometimes it is useful to know if the ISS is currently experiencing day, night or twilight, as this may have an effect on other measurements that are being taken. Classifying such images could therefore be useful.
+Sometimes it is useful to know if the ISS is currently experiencing day, night, or twilight, as this may have an effect on other measurements that are being taken. Classifying such images could therefore be useful.
 
 --- /collapse ---
 
