@@ -10,5 +10,5 @@ In this project, you will retrain a machine learning model using a Coral TPU, an
 
 You will:
 + Retrain a machine learning model to recognise new image classes
-+ Use the Google Coral's TPU to classify images
++ Use a Coral TPU to classify images
 + Have the opportunity to enter the [Mission Space Lab](https://astro-pi.org/mission-space-lab/) competition and run machine learning algorithms on the International Space Station
