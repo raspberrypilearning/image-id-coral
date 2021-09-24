@@ -80,6 +80,6 @@ Sometimes it is useful to know if the ISS is currently experiencing day, night, 
 
 If you want to retrain a model using [Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"} then move on to the next step.
 
-If you want to retrain a model on your computer, then move on to [Retrain a model with a script](3).
+If you want to retrain a model on your computer, then move on to [Retrain a model on your Raspberry Pi](3).
 
 --- /task ---
