@@ -62,7 +62,7 @@ script_dir = Path(__file__).parent.resolve()
 
 --- /task ---
 
-Next, the directories and files needed by the classifier need to be stored as paths, relative to where your Python script is saved. These include the model file, the data directory, the label file, and the image you will be using to test your classifier.
+Next, the directories and files required by the classifier need to be stored as paths, relative to where your Python script is saved. These include the model file, the data directory, the label file, and the image you will be using to test your classifier.
 
 --- task ---
 
@@ -110,7 +110,7 @@ If you need your model to pick out finer details in an image, then the model wou
 
 --- task ---
 
-Add the following lines to find out the dimensions used for the model you have re-trained, and then set the size of your test image to the same dimensions, using `PIL`.
+Add the following lines to find out the dimensions used for the model you have retrained, and then set the size of your test image to the same dimensions, using `PIL`.
 
 --- code ---
 ---
