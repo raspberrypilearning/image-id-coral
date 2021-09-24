@@ -17,4 +17,4 @@ There are other ways you could use the Coral and Machine Learning for your Missi
 
 With Machine Learning, you could also look at other data sources. You could analyse and then predict temperature changes on the ISS, or look into predicting orbital corrections.
 
-If you want to learn more about using the Coral, have a look through the examples and documentation at [https://coral.ai](https://coral.ai).
+If you want to learn more about using Coral, have a look through the examples and documentation at [https://coral.ai](https://coral.ai).
