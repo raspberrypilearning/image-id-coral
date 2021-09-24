@@ -9,7 +9,7 @@ There are many machine learning models that have been trained to identify differ
 </div>
 </div>
 
-On your Raspberry Pi, you will need to install the software needed to use your Coral TPU with Python.
+On your Raspberry Pi, you will need to install the software required to use your Coral TPU with Python.
 
 --- task ---
 
@@ -55,7 +55,7 @@ Either way, you will need a set of classified images to begin with. The simplest
 
 You can create directories on your computer for all your different image classes, and manually move your collections of images into the directories.
 
-Alternatively, you can download a set of images captured from the International Space Station (ISS) [here](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5){:target="_blank"} that have been classified already.
+Alternatively, you can download a set of images captured from the ISS [here](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5){:target="_blank"} that have been classified already.
 
 ![google drive showing the 4 directories to be downloaded](images/drive_download.png)
 
