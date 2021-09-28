@@ -7,7 +7,7 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Gather your images
+  - title: Set up your Coral and gather your images
   - title: Retrain a model online, with Teachable Machine
   - title: Retrain a model on your Raspberry Pi
   - title: Testing your new model

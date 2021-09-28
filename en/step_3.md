@@ -5,13 +5,13 @@
 Teachable Machine allows you to easily retrain an image recognition model by uploading images, that have been sorted into classes, to their site and using their cloud services to create a new model.
 </div>
 <div>
-![animation from teachable machine website showing image, sound, and posture recognition](images/teachable_machine.gif){:width="300px"}
+![Animation from the Teachable Machine website showing image, sound, and posture recognition.](images/teachable_machine.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-In a browser window, navigate to the [Teachable Machine website](https://teachablemachine.withgoogle.com/){:target="_blank"}
+In a browser window, navigate to the [Teachable Machine website](https://teachablemachine.withgoogle.com/).{:target="_blank"}
 
 --- /task ---
 
@@ -19,15 +19,15 @@ In a browser window, navigate to the [Teachable Machine website](https://teachab
 
 Click on the **Get Started** button.
 
-![teachable machine website with the get started button shown](images/teachable_machine_start.png)
+![Teachable Machine website with the 'Get Started' button shown.](images/teachable_machine_start.png)
 
 --- /task ---
 
 --- task ---
 
-Choose to create an **Image Project**
+Choose to create an **Image Project**.
 
-![teachable machine website with the three model types shown, image project is on the far left](images/teachable_machine_image.png)
+![Teachable Machine website with the three model types shown. Image Project is on the far left.](images/teachable_machine_image.png)
 
 --- /task ---
 
@@ -35,7 +35,7 @@ Choose to create an **Image Project**
 
 Select **Standard image model** when prompted.
 
-![teachable machine site with options for standard image model and embedded image model shown](images/teachable_machine_computer_type.png)
+![Teachable Machine website with options for 'Standard image model' and 'Embedded image model' shown.](images/teachable_machine_computer_type.png)
 
 --- /task ---
 
@@ -43,7 +43,7 @@ Select **Standard image model** when prompted.
 
 Rename **Class 1** to the name of your image directory, and then upload your images from that directory.
 
-![teachable machine site with images uploaded for the Day class](images/teachable_machine_uploade_images.png)
+![Teachable Machine website with images uploaded for the Day class.](images/teachable_machine_uploade_images.png)
 
 --- /task ---
 
@@ -51,7 +51,7 @@ Rename **Class 1** to the name of your image directory, and then upload your ima
 
 Repeat this step for your other image directories.
 
-![teachable machine site with three classes of images loaded](images/teachable_machine_3_classes.png)
+![Teachable Machine website with three classes of images loaded.](images/teachable_machine_3_classes.png)
 
 --- /task ---
 
@@ -59,27 +59,27 @@ Repeat this step for your other image directories.
 
 Click on the **Train Model** button, to retrain an existing image recognition model.
 
-![teachable machine site with the training process shown](images/teachable_machine_training.png)
+![Teachable Machine website with the training process shown.](images/teachable_machine_training.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Export Model** button button.
+Click on the **Export Model** button.
 
-![teachable machine site with the export model button shown](images/teachable_machine_export_model.png)
+![Teachable Machine website with the 'Export Model' button shown.](images/teachable_machine_export_model.png)
 
 --- /task ---
 
 --- task ---
 
-Select the **Tensorflow Lite** and **EdgeTPU** options and then **Download my model**.
+Select the **Tensorflow Lite** and **EdgeTPU** options, and then **Download my model**.
 
-![teachable machine site with the options shown for downloading a model](images/teachable_machine_export_model_options.png)
+![Teachable Machine website with the options shown for downloading a model.](images/teachable_machine_export_model_options.png)
 
 --- /task ---
 
-You now have a file that is known as a model. It can be used by the Corel TPU to classify new images and tell you whether they were taken during the **day**, **night** or **twiglight**.
+You now have a file that is known as a model. It can be used by the Coral TPU to classify new images and tell you whether they were taken during the **day**, **night**, or **twiglight**.
 
 --- task ---
 

@@ -5,17 +5,17 @@
 You can also retrain an existing model using a Python script, that will run using your locally stored directories of images.
 </div>
 <div>
-![console output from the retraining of a model](images/retrain_local.gif){:width="300px"}
+![Console output from the retraining of a model.](images/retrain_local.gif){:width="300px"}
 </div>
 </div>
 
-To retrain a model on your computer you will need to have your Coral TPU connected, your image directories organised, and a pre-trained model that you have downloaded.
+To retrain a model on your computer, you will need to have your Coral TPU connected, your image directories organised, and a pre-trained model that you have downloaded.
 
 --- task ---
 
 Set up a directory structure on your computer so that you have directories for **data** and **models**.
 
-![data and models directory in a file explorer](images/directory_structure.png)
+!['Data' and 'models' directory in a file explorer.](images/directory_structure.png)
 
 --- /task ---
 
@@ -23,7 +23,7 @@ Set up a directory structure on your computer so that you have directories for *
 
 Into the **data** directory, you can move your classified image directories and your tests directory.
 
-![the four directories displayed](images/directories.png)
+![The four directories displayed.](images/directories.png)
 
 --- /task ---
 
@@ -44,13 +44,13 @@ line_highlights:
 2 twilight
 --- /code ---
 
-![data directory now showing the day vs night text file](images/data_directory.png)
+![Data directory now showing the day vs night text file.](images/data_directory.png)
 
 --- /task ---
 
 --- task ---
 
-Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/raw/draft/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite)
+Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/raw/draft/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite).
 
 Move the model file to your **models** directory.
 
@@ -68,7 +68,7 @@ Download the training script [here](https://raw.githubusercontent.com/raspberryp
 
 Open the **train.py** script using a text editor or an IDE such as [Thonny](https://thonny.org/). 
 
-Line `30` sets the name of the model you will output from the retaining.
+Line `30` sets the name of the model you will output from the retraining.
 Line `33` requires the name of your **label** file.
 
 You can change these lines depending on the name of your **tflite model** and your **label** file.
@@ -104,7 +104,7 @@ python3 train.py
 
 You should see an output similar to this.
 
-![output from a console showing images being processed along with the scores](images/train_output.png)
+![Output from a console showing images being processed along with the scores.](images/train_output.png)
 
 --- /task ---
 
@@ -114,9 +114,9 @@ Your new model will be saved in the **models** directory.
 
 --- collapse ---
 ---
-title: What's the difference between this and Teachable machine?
+title: What's the difference between this and Teachable Machine?
 ---
 
-When you retrain the model on your own computer, you get to choose the model that you are retraining. With Teachable machine you are only ever using a model that has been chosen for you. By training on your computer, you have the opportunity to pick from a wide variety of different models, some of which might me better suited to the task you are trying to accomplish.
+When you retrain the model on your own computer, you get to choose the model that you are retraining. With Teachable Machine, you are only ever using a model that has been chosen for you. By training on your computer, you have the opportunity to pick from a wide variety of different models, some of which might be better suited to the task you are trying to accomplish.
 
 --- /collapse ---

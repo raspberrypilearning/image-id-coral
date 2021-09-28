@@ -1,19 +1,19 @@
-## Set up your Corel and gather your images
+## Set up your Coral and gather your images
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 There are many machine learning models that have been trained to identify different classes of images. These can easily be retrained to identify new classes.
 </div>
 <div>
-![three images taken from the ISS showing the Earth in day, night and twilight](images/identification.png){:width="300px"}
+![Three images taken from the ISS showing the Earth in day, night, and twilight.](images/identification.png) {:width="300px"}
 </div>
 </div>
 
-On your Raspberry Pi, you will need to install the software needed to use your Corel TPU with Python.
+On your Raspberry Pi, you will need to install the software required to use your Coral TPU with Python.
 
 --- task ---
 
-With your [Raspberry Pi setup](https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started) and your Corel TPU **disconnected**, you can open a **terminal** and run the following command. This will install the Corel Python library and its dependencies.
+With your [Raspberry Pi setup](https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started) and your Coral TPU **disconnected**, you can open a **terminal** and run the following command. This will install the Coral Python library and its dependencies.
 
 ```bash
 wget -O - https://raw.githubusercontent.com/raspberrypilearning/image-id-coral/master/en/resources/install_script.sh | bash
@@ -41,7 +41,7 @@ sudo apt-get install libedgetpu1-std python3-pycoral -y
 
 Once the software has been installed, you can plug in your Coral device to one of the USB ports. We recommend the USB 3 ports, which you can identify because they are blue.
 
-![usb ports of the raspberry pi 4](images/usb_ports.jpg)
+![USB ports of the Raspberry Pi 4.](images/usb_ports.jpg)
 
 --- /task ---
 
@@ -49,13 +49,13 @@ You can choose to retrain a machine learning model in two different ways, either
 
 Either way, you will need a set of classified images to begin with. The simplest way to classify images is to move them into named directories, where the directory name is the class name. You will want to have some images in a separate directory for testing.
 
-![4 directories labeled day, night, tests and twilight shown](images/directories.png)
+![Four directories labeled day, night, tests, and twilight shown.](images/directories.png)
 
 --- task ---
 
-You can create directories on your computer for all your different image classes and manually move your collections of images into the directories
+You can create directories on your computer for all your different image classes, and manually move your collections of images into the directories.
 
-Alternatively or you can download a set of images captured from the International Space Station [here](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5){:target="_blank"} that have been classified already.
+Alternatively, you can download a set of images captured from the ISS [here](https://drive.google.com/drive/folders/1owb4zoZzSMld5qX0edCwZ1qZ6ypnJQ_5){:target="_blank"} that have been classified already.
 
 ![google drive showing the 4 directories to be downloaded](images/drive_download.png)
 
@@ -66,20 +66,20 @@ Alternatively or you can download a set of images captured from the Internationa
 title: How were these images taken?
 ---
 
-The sets of images available for you to download have all been taken using an Astro Pi computer on the ISS, that we have nicknamed Izzy. Izzy has a near-infrared camera attached, and aimed through a window on the ISS to point at Earth.
+The sets of images available for you to download have all been taken using an Astro Pi computer on the ISS, that we have nicknamed Izzy. Izzy has a near-infrared camera attached, which is aimed through a window on the ISS to point at Earth.
 
-The images taken have been classified into **day**, **night** and **twilight** classes. Some images have also been kept back for use in **testing**.
+The images taken have been classified into **day**, **night**, and **twilight** classes. Some images have also been kept back for use in **testing**.
 
-![three images taken from the ISS showing the Earth in day, night and twilight](images/identification.png)
+![Three images taken from the ISS showing the Earth in day, night, and twilight.](images/identification.png)
 
-Sometimes it is useful to know if the ISS is currently experiencing day, night or twilight, as this may have an effect on other measurements that are being taken. Classifying such images could therefore be useful.
+Sometimes it is useful to know if the ISS is currently experiencing day, night, or twilight, as this may have an effect on other measurements that are being taken. Classifying such images could therefore be useful.
 
 --- /collapse ---
 
 --- task ---
 
-If you want to retrain a model using [Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"} then move onto the next step.
+If you want to retrain a model using [Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"} then move on to the next step.
 
-If you want to retrain a model on your computer then move on to [Retrain a model with a script](3).
+If you want to retrain a model on your computer, then move on to [Retrain a model on your Raspberry Pi](3).
 
 --- /task ---
