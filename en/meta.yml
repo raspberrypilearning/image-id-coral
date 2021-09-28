@@ -2,8 +2,8 @@ title: Image classification with Google Coral
 hero_image: images/banner.png
 description: Learn how to retrain a machine learning model and use it for image identification.
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
