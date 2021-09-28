@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Mission Space Lab is part of the European Astro Pi Challenge, an ESA Education project run in collaboration with the Raspberry Pi Foundation for young people aged under 19 in [ESA Member States](https://astro-pi.org/mission-space-lab/eligibility), Slovenia, Latvia, Lithuania, Canada and Malta.
+[Mission Space Lab](https://astro-pi.org/mission-space-lab/) is part of the European Astro Pi Challenge, an ESA Education project run in collaboration with the Raspberry Pi Foundation for young people aged 19 and under in [ESA Member States](https://astro-pi.org/mission-space-lab/eligibility), Slovenia, Latvia, Lithuania, Canada and Malta.
  
 Mission Space Lab involves writing a computer program to run on one of the two Astro Pi units on the International Space Station, in order to conduct a scientific experiment exploring life on Earth or life in space. Each Astro Pi unit will have a Coral Machine Learning Accelerator attached to it.
 </div>
