@@ -8,10 +8,12 @@ copyedit: true
 last_tested: '2021-03-26'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Set up your Coral and gather your images
 - title: Retrain a model online, with Teachable Machine
+  completion:
+  - engaged
 - title: Retrain a model on your Raspberry Pi
 - title: Testing your new model
-  completion: internal
+  completion:
+  - internal
 - title: Mission Space Lab
