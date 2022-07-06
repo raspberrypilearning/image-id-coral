@@ -5,7 +5,8 @@
 There are many machine learning models that have been trained to identify different classes of images. These can easily be retrained to identify new classes.
 </div>
 <div>
-![Three images taken from the ISS showing the Earth in day, night, and twilight.](images/identification.png){:width="300px"} </div>
+![Three images taken from the ISS showing the Earth in day, night, and twilight.](images/identification.png){:width="300px"}
+</div>
 </div>
 
 On your Raspberry Pi, unless you are running an AstroPi Kit OS, you will need to install the software required to use your Coral TPU with Python. If you are running the AstroPi Kit OS, you should skip this step.
