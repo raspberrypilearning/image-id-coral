@@ -11,7 +11,7 @@ Teachable Machine allows you to easily retrain an image recognition model by upl
 
 --- task ---
 
-In a browser window, navigate to the [Teachable Machine website](https://teachablemachine.withgoogle.com/).{:target="_blank"}
+In a browser window, navigate to the [Teachable Machine website](https://teachablemachine.withgoogle.com/){:target="_blank"}
 
 --- /task ---
 

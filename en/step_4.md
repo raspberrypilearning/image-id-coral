@@ -50,7 +50,8 @@ line_highlights:
 
 --- task ---
 
-Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/raw/draft/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite).
+Download a pre-trained image recognition model [here](https://github.com/raspberrypilearning/image-id-coral/blob/master/en/resources/mobilenet_v1_1.0_224_l2norm_quant_edgetpu.tflite?raw=true).
+
 
 Move the model file to your **models** directory.
 
