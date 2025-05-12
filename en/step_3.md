@@ -79,7 +79,7 @@ Select the **Tensorflow Lite** and **EdgeTPU** options, and then **Download my m
 
 --- /task ---
 
-You now have a file that is known as a model. It can be used by the Coral TPU to classify new images and tell you whether they were taken during the **day**, **night**, or **twiglight**.
+You now have a file that is known as a model. It can be used by the Coral TPU to classify new images and tell you whether they were taken during the **day**, **night**, or **twilight**.
 
 --- task ---
 
